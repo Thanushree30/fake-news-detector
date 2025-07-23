@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Detect Fake News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <h1>📰 Fake News Detector</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="detect.html">Detect</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="detect-section">
+    <h2>🕵️‍♀️ Check a News Headline</h2>
+    <p>Enter any trending news or statement you’ve seen — let us detect the truth for you!</p>
+
+    <div class="form-container">
+      <input type="text" id="newsInput" placeholder="Type the news headline here..." title="Enter the news to verify" />
+      <button class="btn" onclick="detectNews()">Detect</button>
+    </div>
+
+    <div id="resultContainer" class="result-container"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fake News Detector | Built by Thannushree</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Detect | Fake News Detector</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1>📰 Fake News Detector</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="detect.html">Detect</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="detect-section">
+    <h2>🔎 Check for Fake News</h2>
+    <p>Paste your news article or statement below:</p>
+    <textarea id="newsInput" placeholder="Enter the news text here..."></textarea>
+    <br>
+    <button onclick="detectFakeNews()">Detect</button>
+    <div id="result"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fake News Detector | Built by Thannushree</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+s
